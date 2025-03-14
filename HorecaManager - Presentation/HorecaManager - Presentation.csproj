@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <RootNamespace>HorecaManager___Presentation</RootNamespace>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\HorecaManager - Business\HorecaManager - Business.csproj" />
+      <ProjectReference Include="..\HorecaManager - Data layer\HorecaManager - Data layer.csproj" />
+    </ItemGroup>
+
+</Project>
